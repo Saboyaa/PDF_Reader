@@ -2,13 +2,12 @@ import os
 import time
 from dotenv import load_dotenv
 import json
+import re
 import fitz  # PyMuPDF
-from langchain_core.prompts import PromptTemplate
-from langchain_core.output_parsers import JsonOutputParser
-from langchain_openai import ChatOpenAI
+
+from openai import OpenAI
 
 load_dotenv()
-
 folder_path = 'files'
 all_texts = {}
 inicio = time.time()
@@ -24,45 +23,43 @@ for filename in os.listdir(folder_path):
         all_texts[filename] = text
 
 texto = all_texts["oab_1.pdf"]
-print(texto)
+print(f"Extração: {time.time() - inicio:.2f}s")
 
-# Preparar LLM e prompt
-llm = ChatOpenAI(model='gpt-5-mini', temperature=0)  # Corrigido: gpt-4o-mini
-
-template = """
-Você deve **extrair informações estruturadas** do texto fornecido e retornar **apenas um JSON válido** no formato abaixo. 
-Se algum dado não estiver presente no texto, preencher com null.
-
-Formato do JSON esperado:
+# Chamada direta e síncrona
+client = OpenAI()
+prompt_text = f"""
+Extraia e retorne os seguintes dados do texto fornecido no seguinte formato JSON (caso não tenha algum dado completar com null):
 {{
   "label": "carteira_oab",
   "extraction_schema": {{
     "nome": "Nome do profissional, normalmente no canto superior esquerdo da imagem",
     "inscricao": "Número de inscrição do profissional",
-    "seccional": "Seccional do profissional (UF)",
+    "seccional": "Seccional do profissional",
     "subsecao": "Subseção à qual o profissional faz parte",
-    "categoria": "Categoria: ADVOGADO, ADVOGADA, SUPLEMENTAR, ESTAGIARIO ou ESTAGIARIA",
-    "endereco_profissional": "Endereço completo do profissional",
+    "categoria": "Categoria, pode ser ADVOGADO, ADVOGADA, SUPLEMENTAR, ESTAGIARIO, ESTAGIARIA",
+    "endereco_profissional": "Endereço do profissional",
     "telefone_profissional": "Telefone do profissional",
-    "situacao": "Situação do profissional, normalmente no canto inferior direito"
+    "situacao": "Situação do profissional, normalmente no canto inferior direito."
   }},
   "pdf_path": "oab_1.pdf"
 }}
-
-**Apenas retornar o JSON**, sem explicações, comentários ou texto adicional.
-
 Texto do PDF a ser analisado:
 {texto}
 """
 
-prompt = PromptTemplate(input_variables=['texto'], template=template)
-json_parser = JsonOutputParser()
-
-# Criar chain e executar
-chain = prompt | llm | json_parser
-parsed = chain.invoke({"texto": texto})
-
+tempo_llm = time.time()
+response = client.chat.completions.create(
+    model="gpt-5-mini",
+    messages=[{"role": "user", "content": prompt_text}],
+    temperature=1,                 
+    max_completion_tokens=1000     
+)
+text_content = response.choices[0].message.content
+match = re.search(r"\{.*\}", text_content, re.DOTALL)
+if match:
+    parsed = json.loads(match.group(0))
+else:
+    raise ValueError("JSON não encontrado na resposta do modelo")
+print(f"LLM: {time.time() - tempo_llm:.2f}s")
 print(json.dumps(parsed, indent=2, ensure_ascii=False))
-
-fim = time.time()
-print(f"O código levou {fim - inicio:.6f} segundos para executar.")
+print(f"\nTotal: {time.time() - inicio:.2f}s")
