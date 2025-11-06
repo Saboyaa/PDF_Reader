@@ -163,10 +163,20 @@ async def main():
     inicio = time.time()
     all_texts = {}
     pdf_args = sys.argv[1:]
-    print(f"→ Arquivos recebidos: {pdf_args}")
+    print(f"→ Argumentos recebidos: {pdf_args}")
 
-    with open("json/buffed.json", "r", encoding="utf-8") as f:
+# Se o último argumento for um JSON, trata como o buffed_path
+    if pdf_args and pdf_args[-1].lower().endswith(".json"):
+        buffed_path = pdf_args[-1]
+        pdf_args = pdf_args[:-1]  # remove o último argumento da lista de PDFs
+    else:
+        buffed_path = "json/buffed.json"
+
+    print(f"→ buffed.json usado: {buffed_path}")
+
+    with open(buffed_path, "r", encoding="utf-8") as f:
         dataset = json.load(f)
+
     original_dataset = dataset.copy()
     print(f"Total no dataset: {len(dataset)}")
 

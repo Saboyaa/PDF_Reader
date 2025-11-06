@@ -121,7 +121,7 @@ class FastProcessorUI(QWidget):
                 font-size: 14px;
                 color: #b4a68e;
             }
-	    QScrollBar:vertical {
+    	    QScrollBar:vertical {
         	background: transparent;
         	width: 8px;
         	margin: 4px 0;
@@ -145,6 +145,7 @@ class FastProcessorUI(QWidget):
         """)
 
         self.json_path = "json/result.json"
+        self.buffered_path = "json/buffed.json"  # Caminho padrão do buffed.json
         self.files = []
         self.monitoring = False
         self.start_time = 0
@@ -171,13 +172,16 @@ class FastProcessorUI(QWidget):
         self.folder_button = QPushButton("Selecionar Pasta")
         self.folder_button.clicked.connect(self.select_folder)
 
+        self.buff_button = QPushButton("Selecionar Schema")
+        self.buff_button.clicked.connect(self.select_buffed)
+
         self.process_button = QPushButton("▶ PROCESSAR")
         self.process_button.clicked.connect(self.start_processing)
 
         self.clear_button = QPushButton("Limpar")
         self.clear_button.clicked.connect(self.clear_all)
 
-        for btn in [self.file_button, self.folder_button, self.process_button, self.clear_button]:
+        for btn in [self.file_button, self.folder_button, self.buff_button, self.process_button, self.clear_button]:
             button_row.addWidget(btn)
         layout.addLayout(button_row)
 
@@ -208,6 +212,12 @@ class FastProcessorUI(QWidget):
             self.files = [str(f) for f in Path(folder).iterdir() if f.is_file()]
             self.status_label.setText(f"{len(self.files)} arquivo(s) selecionado(s) ✓")
 
+    def select_buffed(self):
+        file, _ = QFileDialog.getOpenFileName(self, "Selecionar dataset.json", "", "Arquivos JSON (*.json)")
+        if file:
+            self.buffered_path = file
+            self.status_label.setText(f"buffed.json personalizado: {os.path.basename(file)} ✓")
+
     def clear_all(self):
         self.files = []
         self.json_view.clear()
@@ -224,11 +234,11 @@ class FastProcessorUI(QWidget):
             return
 
         try:
-            with open("json/buffed.json", "r", encoding="utf-8") as f:
+            with open(self.buffered_path, "r", encoding="utf-8") as f:
                 dataset = json.load(f)
                 self.total_expected = len(dataset)
         except Exception as e:
-            QMessageBox.critical(self, "Erro", f"Não foi possível ler dataset.json:\n{e}")
+            QMessageBox.critical(self, "Erro", f"Não foi possível ler {self.buffered_path}:\n{e}")
             return
         
         self.status_label.setText("Processando...")
@@ -247,7 +257,7 @@ class FastProcessorUI(QWidget):
 
     def run_external_process(self):
         try:
-            self.process = subprocess.Popen([sys.executable, "Extractor.py", *self.files])
+            self.process = subprocess.Popen([sys.executable, "Extractor.py", *self.files,self.buffered_path])
         except subprocess.CalledProcessError as e:
             print("Erro ao executar script:", e)
         finally:
