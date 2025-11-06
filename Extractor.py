@@ -67,7 +67,7 @@ Texto:
 # -----------------------------
 # Atualização do result.json em tempo real
 # -----------------------------
-async def update_result_json(original_dataset, results, lock, output_path="result.json"):
+async def update_result_json(original_dataset, results, lock, output_path="json/result.json"):
     """Atualiza result.json mantendo a ordem original do dataset.json."""
     async with lock:
         result_map = {r.get("pdf_path"): r for r in results}
@@ -165,7 +165,7 @@ async def main():
     pdf_args = sys.argv[1:]
     print(f"→ Arquivos recebidos: {pdf_args}")
 
-    with open("buffed.json", "r", encoding="utf-8") as f:
+    with open("json/buffed.json", "r", encoding="utf-8") as f:
         dataset = json.load(f)
     original_dataset = dataset.copy()
     print(f"Total no dataset: {len(dataset)}")

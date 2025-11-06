@@ -144,7 +144,7 @@ class FastProcessorUI(QWidget):
     	    }
         """)
 
-        self.json_path = "result.json"
+        self.json_path = "json/result.json"
         self.files = []
         self.monitoring = False
         self.start_time = 0
@@ -224,7 +224,7 @@ class FastProcessorUI(QWidget):
             return
 
         try:
-            with open("buffed.json", "r", encoding="utf-8") as f:
+            with open("json/buffed.json", "r", encoding="utf-8") as f:
                 dataset = json.load(f)
                 self.total_expected = len(dataset)
         except Exception as e:
@@ -238,7 +238,7 @@ class FastProcessorUI(QWidget):
         with open(self.json_path, "w", encoding="utf-8") as f:
             json.dump([], f)
 
-        with open("files_to_process.json", "w", encoding="utf-8") as f:
+        with open("json/files_to_process.json", "w", encoding="utf-8") as f:
             json.dump(self.files, f)
 
         threading.Thread(target=self.run_external_process, daemon=True).start()

@@ -7,7 +7,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -21,7 +21,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -56,7 +56,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -80,7 +80,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -107,7 +107,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -153,7 +153,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -167,7 +167,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -299,7 +299,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -326,7 +326,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -386,7 +386,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -421,7 +421,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -481,7 +481,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -532,7 +532,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -566,8 +566,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -591,7 +591,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -605,7 +605,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -640,7 +640,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -664,7 +664,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -691,7 +691,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -737,7 +737,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -751,7 +751,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -970,7 +970,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -1005,7 +1005,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1043,7 +1043,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -1077,8 +1077,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1102,7 +1102,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1129,7 +1129,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -1151,7 +1151,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1175,7 +1175,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1189,7 +1189,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -1224,7 +1224,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1248,7 +1248,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1275,7 +1275,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -1321,7 +1321,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1335,7 +1335,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -1467,7 +1467,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1494,7 +1494,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -1554,7 +1554,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -1589,7 +1589,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1649,7 +1649,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -1700,7 +1700,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -1734,8 +1734,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1759,7 +1759,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1773,7 +1773,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -1808,7 +1808,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -1832,7 +1832,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1859,7 +1859,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -1905,7 +1905,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -1919,7 +1919,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -2138,7 +2138,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -2173,7 +2173,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2211,7 +2211,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -2245,8 +2245,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2270,7 +2270,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2297,7 +2297,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -2319,7 +2319,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2343,7 +2343,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2357,7 +2357,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -2392,7 +2392,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2416,7 +2416,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2443,7 +2443,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -2489,7 +2489,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2503,7 +2503,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -2635,7 +2635,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2662,7 +2662,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -2722,7 +2722,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -2757,7 +2757,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2817,7 +2817,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -2868,7 +2868,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -2902,8 +2902,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -2927,7 +2927,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -2941,7 +2941,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -2976,7 +2976,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3000,7 +3000,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3027,7 +3027,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -3073,7 +3073,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3087,7 +3087,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -3306,7 +3306,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -3341,7 +3341,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3379,7 +3379,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -3413,8 +3413,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3438,7 +3438,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3465,7 +3465,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -3487,7 +3487,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3511,7 +3511,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3525,7 +3525,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -3560,7 +3560,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3584,7 +3584,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3611,7 +3611,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -3657,7 +3657,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3671,7 +3671,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -3803,7 +3803,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -3830,7 +3830,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -3890,7 +3890,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -3925,7 +3925,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -3985,7 +3985,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -4036,7 +4036,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -4070,8 +4070,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4095,7 +4095,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4109,7 +4109,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -4144,7 +4144,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4168,7 +4168,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4195,7 +4195,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -4241,7 +4241,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4255,7 +4255,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -4474,7 +4474,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -4509,7 +4509,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4547,7 +4547,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -4581,8 +4581,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4606,7 +4606,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4633,7 +4633,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -4655,7 +4655,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4679,7 +4679,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4693,7 +4693,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -4728,7 +4728,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -4752,7 +4752,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4779,7 +4779,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -4825,7 +4825,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4839,7 +4839,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -4971,7 +4971,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -4998,7 +4998,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -5058,7 +5058,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -5093,7 +5093,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5153,7 +5153,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -5204,7 +5204,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -5238,8 +5238,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5263,7 +5263,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5277,7 +5277,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -5312,7 +5312,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5336,7 +5336,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5363,7 +5363,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -5409,7 +5409,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5423,7 +5423,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -5642,7 +5642,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -5677,7 +5677,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5715,7 +5715,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -5749,8 +5749,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5774,7 +5774,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5801,7 +5801,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -5823,7 +5823,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5847,7 +5847,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5861,7 +5861,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -5896,7 +5896,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -5920,7 +5920,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -5947,7 +5947,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -5993,7 +5993,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6007,7 +6007,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -6139,7 +6139,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6166,7 +6166,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -6226,7 +6226,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -6261,7 +6261,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -6321,7 +6321,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -6372,7 +6372,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -6406,8 +6406,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -6431,7 +6431,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6445,7 +6445,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -6480,7 +6480,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -6504,7 +6504,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6531,7 +6531,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -6577,7 +6577,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6591,7 +6591,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -6810,7 +6810,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -6845,7 +6845,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -6883,7 +6883,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -6917,8 +6917,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -6942,7 +6942,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -6969,7 +6969,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -6991,7 +6991,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -7015,7 +7015,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7029,7 +7029,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -7064,7 +7064,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -7088,7 +7088,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7115,7 +7115,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -7161,7 +7161,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7175,7 +7175,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -7307,7 +7307,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7334,7 +7334,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -7394,7 +7394,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -7429,7 +7429,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -7489,7 +7489,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -7540,7 +7540,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -7574,8 +7574,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -7599,7 +7599,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7613,7 +7613,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -7648,7 +7648,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -7672,7 +7672,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7699,7 +7699,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -7745,7 +7745,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -7759,7 +7759,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -7978,7 +7978,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -8013,7 +8013,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8051,7 +8051,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -8085,8 +8085,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8110,7 +8110,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8137,7 +8137,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -8159,7 +8159,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8183,7 +8183,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8197,7 +8197,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -8232,7 +8232,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8256,7 +8256,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8283,7 +8283,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -8329,7 +8329,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8343,7 +8343,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -8475,7 +8475,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8502,7 +8502,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -8562,7 +8562,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -8597,7 +8597,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8657,7 +8657,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -8708,7 +8708,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -8742,8 +8742,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8767,7 +8767,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8781,7 +8781,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -8816,7 +8816,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -8840,7 +8840,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8867,7 +8867,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -8913,7 +8913,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -8927,7 +8927,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -9146,7 +9146,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -9181,7 +9181,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9219,7 +9219,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -9253,8 +9253,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9278,7 +9278,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9305,7 +9305,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -9327,7 +9327,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9351,7 +9351,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9365,7 +9365,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -9400,7 +9400,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9424,7 +9424,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9451,7 +9451,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -9497,7 +9497,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9511,7 +9511,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -9643,7 +9643,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9670,7 +9670,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -9730,7 +9730,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -9765,7 +9765,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9825,7 +9825,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -9876,7 +9876,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -9910,8 +9910,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -9935,7 +9935,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -9949,7 +9949,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -9984,7 +9984,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10008,7 +10008,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10035,7 +10035,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -10081,7 +10081,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10095,7 +10095,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -10314,7 +10314,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -10349,7 +10349,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10387,7 +10387,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -10421,8 +10421,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10446,7 +10446,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10473,7 +10473,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -10495,7 +10495,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10519,7 +10519,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10533,7 +10533,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -10568,7 +10568,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10592,7 +10592,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10619,7 +10619,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -10665,7 +10665,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10679,7 +10679,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -10811,7 +10811,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -10838,7 +10838,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -10898,7 +10898,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -10933,7 +10933,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -10993,7 +10993,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -11044,7 +11044,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -11078,8 +11078,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11103,7 +11103,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11117,7 +11117,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -11152,7 +11152,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11176,7 +11176,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11203,7 +11203,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -11249,7 +11249,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11263,7 +11263,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -11482,7 +11482,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -11517,7 +11517,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11555,7 +11555,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -11589,8 +11589,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11614,7 +11614,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11641,7 +11641,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -11663,7 +11663,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11687,7 +11687,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11701,7 +11701,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -11736,7 +11736,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -11760,7 +11760,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11787,7 +11787,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -11833,7 +11833,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -11847,7 +11847,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -11979,7 +11979,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12006,7 +12006,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -12066,7 +12066,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -12101,7 +12101,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12161,7 +12161,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -12212,7 +12212,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -12246,8 +12246,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12271,7 +12271,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12285,7 +12285,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -12320,7 +12320,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12344,7 +12344,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12371,7 +12371,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -12417,7 +12417,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12431,7 +12431,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -12650,7 +12650,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -12685,7 +12685,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12723,7 +12723,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -12757,8 +12757,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12782,7 +12782,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12809,7 +12809,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -12831,7 +12831,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12855,7 +12855,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12869,7 +12869,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -12904,7 +12904,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -12928,7 +12928,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -12955,7 +12955,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -13001,7 +13001,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13015,7 +13015,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -13147,7 +13147,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13174,7 +13174,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -13234,7 +13234,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_0.pdf"
@@ -13269,7 +13269,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -13329,7 +13329,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "data_base": "05/09/2025",
-      "data_verncimento": "12/10/2025",
+      "data_verncimento": "03/09/2025",
       "quantidade_parcelas": null,
       "produto": "CONSIGNADO",
       "sistema": null,
@@ -13380,7 +13380,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_2_0.pdf"
@@ -13414,8 +13414,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "CLIENTE",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_por": "cliente",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -13439,7 +13439,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13453,7 +13453,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2.pdf"
@@ -13488,7 +13488,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -13512,7 +13512,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13539,7 +13539,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": null,
+      "telefone_profissional": "K",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_0.pdf"
@@ -13585,7 +13585,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13599,7 +13599,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1.pdf"
@@ -13818,7 +13818,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_0_2.pdf"
@@ -13853,7 +13853,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -13891,7 +13891,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_2_1_2.pdf"
@@ -13925,8 +13925,8 @@
   {
     "label": "tela_sistema",
     "extraction_schema": {
-      "pesquisa_por": "cliente",
-      "pesquisa_tipo": "cpf",
+      "pesquisa_por": "CLIENTE",
+      "pesquisa_tipo": "CPF",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"
@@ -13950,7 +13950,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista\nSÃO PAULO - SP\n01310300",
+      "endereco_profissional": "AVENIDA PAULISTA, Nº 2300 andar Pilotis, Bela Vista, SÃO PAULO - SP, 01310300",
       "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
@@ -13977,7 +13977,7 @@
       "seccional": "PR",
       "subsecao": "CONSELHO SECCIONAL - PARANÁ",
       "categoria": "SUPLEMENTAR",
-      "telefone_profissional": "K",
+      "telefone_profissional": null,
       "situacao": "SITUAÇÃO REGULAR"
     },
     "pdf_path": "oab_3_2_2.pdf"
@@ -13999,7 +13999,7 @@
     "label": "tela_sistema",
     "extraction_schema": {
       "pesquisa_por": "cliente",
-      "pesquisa_tipo": "CPF",
+      "pesquisa_tipo": "cpf",
       "sistema": "CONSIGNADO",
       "valor_parcela": "2.372,64",
       "cidade": "Mozarlândia"

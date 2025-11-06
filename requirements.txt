@@ -1,0 +1,12 @@
+# --- Interface gráfica (FastProcessorUI) ---
+PyQt6>=6.6.0
+
+# --- Manipulação de PDFs ---
+PyMuPDF>=1.24.0
+
+# --- Cliente OpenAI e variáveis de ambiente ---
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# --- Utilitários ---
+asyncio
