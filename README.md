@@ -1,7 +1,7 @@
 # 🧠 PDF Data Extractor com GPT-5-mini
 
 Um sistema assíncrono e escalável para extração estruturada de dados a partir de PDFs, utilizando *producers* e *consumers* paralelos, e integração com o modelo **GPT-5-mini**.  
-O pipeline é monitorado em tempo real por uma interface gráfica reativa, que exibe progresso, logs e métricas de acurácia.
+O pipeline é monitorado em tempo real por uma interface gráfica reativa, que exibe progresso, e a resposta em conforme vai sendo processado.
 
 ---
 
@@ -20,63 +20,56 @@ O projeto é composto por **três camadas principais**:
 ```mermaid
 flowchart TD
 
-subgraph UI["🖥️ Interface Gráfica"]
-    A1["Usuário inicia processamento"]
-    A2["Chama função principal (Extractor)"]
-    A3["Monitora o arquivo de resultados (gabarito.json)"]
-    A4["Atualiza visual em tempo real com progresso"]
+%% === Interface ===
+subgraph UI["💻 Interface Gráfica"]
+    UI1["▶️ Início"]
+    UI2["🚀 Executa Extractor"]
+    UI3["👀 Monitora progresso"]
+    UI4["📊 Atualiza status em tempo real"]
 end
 
+%% === Núcleo de Processamento ===
 subgraph CORE["⚙️ Núcleo de Processamento"]
-    subgraph P["Produtores"]
-        P1["Ler arquivos PDF"]
-        P3["Criar prompts estruturados para GPT-5-mini"]
-        P4["Enviar prompts para fila de requisições"]
+    subgraph PROD["🧠 Produtores"]
+        P1["📄 Ler PDFs"]
+        P2["🧩 Criar prompts GPT"]
+        P3["📤 Enviar para fila"]
     end
 
-    subgraph C["Consumidores"]
-        C1["Ler respostas do GPT-5-mini"]
-        C2["Processar e validar resposta"]
-        C3["Salvar resultados ordenadamente em JSON final"]
+    subgraph CONS["🔁 Consumidores"]
+        C1["📥 Receber resposta GPT"]
+        C2["🧾 Validar e processar"]
+        C3["💾 Salvar JSON final"]
     end
 end
 
-subgraph MODEL["🧠 GPT-5-mini"]
-    M1["Recebe prompt"]
-    M2["Retorna JSON extraído"]
+%% === Modelo ===
+subgraph MODEL["🧬 GPT-5-mini"]
+    M1["📨 Recebe prompt"]
+    M2["📬 Retorna JSON extraído"]
 end
 
-A1 --> A2
-A2 --> P1
-P1 --> P3
-P3 --> P4
-P4 --> M1
+%% === Fluxo principal ===
+UI1 --> UI2
+UI2 --> P1
+P1 --> P2
+P2 --> P3
+P3 --> M1
 M1 --> M2
 M2 --> C1
 C1 --> C2
 C2 --> C3
-C3 -->|Ao consumir todos| A3
-A3 --> A4
+C3 -->|🟡 Atualiza progresso| UI3
+UI3 --> UI4
 
-%% Ciclo interno de processamento
-P --> |Ao acabar de produzir vira consumidor|C
-C --> C3
+%% === Ciclos internos ===
+P3 -->|♻️ Enquanto houver PDFs| P1
+C3 -->|🔄 Ainda há respostas| C1
+P3 -->|✅ Após produção| CONS
+CONS -->|⚙️ Reitera se pendente| C1
 
-%% Loop dos trabalhadores
-P4 --> P1
-C3 --> C1
-
-classDef producer fill:#ffb347,stroke:#b36b00,color:#000;
-classDef consumer fill:#77dd77,stroke:#2e8b57,color:#000;
-classDef model fill:#89cff0,stroke:#0077b6,color:#000;
-classDef ui fill:#f8d7da,stroke:#b22222,color:#000;
-
-class P,P1,P2,P3,P4 producer;
-class C,C1,C2,C3 consumer;
-class M1,M2 model;
-class UI,A1,A2,A3,A4 ui;
 ```
-🔁 Fluxo de Execução
+## 🔁 Fluxo de Execução
 
     O usuário inicia o processo na interface e seleciona os PDFs.
 
@@ -104,76 +97,73 @@ class UI,A1,A2,A3,A4 ui;
 
     A UI monitora continuamente o arquivo gabarito.json e atualiza o progresso em tempo real.
 
-🧰 Tecnologias Utilizadas
-Componente	Função
-Python 3.11+	Base da aplicação
-asyncio / threading	Gerenciamento paralelo de produtores e consumidores
-GPT-5-mini API	Extração inteligente de dados dos textos
-Tkinter / PyQt / Streamlit (dependendo da versão da UI)	Interface gráfica
-JSON Schema	Validação dos resultados extraídos
-watchdog (opcional)	Monitoramento em tempo real de alterações no JSON
-📊 Métricas de Acurácia
+## 🧰 Tecnologias Utilizadas  
+- Python 3.11+	Base da aplicação  
+- asyncio / threading	Gerenciamento paralelo de produtores e - consumidores  
+- GPT-5-mini API	Extração inteligente de dados dos textos  
+- PyQt6 Interface gráfica  
 
-O sistema conta com uma função de avaliação automática que:
-
-    Compara o resultado gerado (respostas.json) com o gabarito.json;
-
-    Ignora diferenças de formatação como \n e espaços;
-
-    Gera um relatório com acurácia geral, por campo e por documento.
-
-🚀 Execução
+## 🚀 Execução
 1. Instalação das dependências
 
-pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
-2. Execução normal (com UI)
+2. Substitua o dataset.json pelo seu conteudo #Importante manter o nome como dataset.json
+  
+3. Execução normal (com UI)
 
-python main.py
+    `python3 main.py`
 
-3. Execução em modo headless (sem UI)
+4. Selecione os pdf que queira ler, pode ser tanto selecionando os pdf quanto a pasta em que eles estão
+ 
+5. Resultado
 
-python extractor.py --no-ui
+    Arquivo de saída: result.json ou na interface gráfica
 
-4. Resultado
-
-    Arquivo de saída: respostas.json
-
-    Relatório de acurácia: relatorio_acuracia.json ou no painel da UI
-
-💡 Características Avançadas
+## 💡 Características Avançadas
 
     🚀 Interface gráfica com Resposta atualizada para o cliente ter noção do que está acontecendo
 
-    ✅ Produtores se transformam automaticamente em consumidores quando terminam suas tarefas.
+    ✅ Produtores se transformam automaticamente em consumidores quando terminam suas tarefas para maximizar eficiência.
 
     🔄 Loops contínuos até o esvaziamento completo das filas.
 
     ⚡ Processamento paralelo otimizado.
 
-    🧩 Modular e expansível — fácil adicionar novos tipos de documento.
+    🧩 Modular e expansível — fácil adicionar novos documentos.
 
     📡 Comunicação assíncrona entre componentes.
 
-🧑‍💻 Estrutura de Pastas
+## 🧑‍💻 Estrutura de Pastas
+📁 projeto/  
+├── main.py  
+├── extractor.py  
+├── test/ # this folder is for developer test's only  
+│   ├── func_test.py  
+│   └── gabarito.json  
+├── json/  
+│   ├── pdfs/  
+│   ├── dataset.json  
+│   ├── files_to_process.json  
+│   └── respostas.json  
+└── README.md  
+## 🧠 Processo de Desenvolvimento
 
-📁 projeto/
-├── 🖥️ ui/
-│   ├── main_ui.py
-│   └── components/
-├── ⚙️ core/
-│   ├── extractor.py
-│   ├── producers.py
-│   ├── consumers.py
-│   └── evaluator.py
-├── 🧠 model/
-│   └── gpt_client.py
-├── 📄 data/
-│   ├── pdfs/
-│   ├── gabarito.json
-│   └── respostas.json
-└── README.md
+Durante o desenvolvimento deste projeto, meu foco foi entender o problema e dividi-lo em etapas bem definidas:
+
+1. **Interface (UI)** – Criei uma interface simples e funcional para interagir com o processo.  
+2. **Formatação do Prompt** – Estruturei o texto de entrada para garantir que a IA recebesse as informações da forma mais eficiente possível.  
+3. **Envio à IA** – Implementei a comunicação com o modelo, garantindo consistência entre as chamadas.  
+4. **Cache de Resultados** – Adicionei cache para evitar repetições desnecessárias e otimizar custos.  
+5. **Formatação da Resposta** – Estruturei a saída para análise posterior e testes de validação.  
+
+Na **reunião de terça-feira**, descobri que o processo poderia ser **assíncrono** des de que a primeira resposta chegasse em menos de 10s, o que me levou a pensar em um **modelo de produtor e consumidor** para maximizar a eficiência.  
+Fui testando para o meu sistema e percebi que conseguia uma quantidade grande de consumidores sem risco de falhar na minha infraestrura pessoal que é bem básica então ficou tão rápido que precisei **ampliar a base de dados de PDFs** — fazendo ele processar **6 arquivos, 200 vezes cada**, mantendo o mesmo consumo de tokens por chamada.  
+
+Porém, como o código estava processando em poucos lotes de chamada o cache acabou apenas **aumentando o tamanho do prompt**, decidi **removê-lo** para simplicar e diminuir a quantidade de tokens de entrada e focar na velocidade pura do processamento.  
+
+Por fim, criei uma **função de teste** para validar a **acurácia dos resultados**, garantindo que o texto final estivesse coerente e bem gerado.
 
 🧑‍🎓 Autor
 
-Desenvolvido por Gabriel Saboya
+Desenvolvido por **Gabriel Saboya**
