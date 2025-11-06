@@ -95,7 +95,7 @@ CONS -->|⚙️ Reitera se pendente| C1
 
         Repetem o ciclo enquanto houver itens na fila.
 
-    A UI monitora continuamente o arquivo gabarito.json e atualiza o progresso em tempo real.
+    A UI monitora continuamente o arquivo json/result.json e atualiza o progresso em tempo real.
 
 ## 🧰 Tecnologias Utilizadas  
 - Python 3.11+	Base da aplicação  
@@ -118,7 +118,7 @@ CONS -->|⚙️ Reitera se pendente| C1
  
 5. Resultado
 
-    Arquivo de saída: result.json ou na interface gráfica
+    Arquivo de saída: json/result.json ou na interface gráfica
 
 ## 💡 Características Avançadas
 
