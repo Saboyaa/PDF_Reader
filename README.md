@@ -108,7 +108,8 @@ CONS -->|⚙️ Reitera se pendente| C1
 1. Instalação das dependências
 
     `pip install -r requirements.txt`
-  
+2. Faça um arquivo .env com a sua chave API da open-ai
+    `OPENAI_API_KEY="SUA_CHAVE_AQUI"`
 3. Execução normal (com UI)
 
     `python3 main.py`
@@ -144,7 +145,8 @@ CONS -->|⚙️ Reitera se pendente| C1
 │   ├── pdfs/  
 │   ├── dataset.json  
 │   ├── files_to_process.json  
-│   └── respostas.json  
+│   └── respostas.json 
+├── .env  
 └── README.md  
 ## 🧠 Processo de Desenvolvimento
 
