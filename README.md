@@ -1,8 +1,9 @@
 # 🧠 PDF Data Extractor com GPT-5-mini
 
-Um sistema assíncrono e escalável para extração estruturada de dados a partir de PDFs, utilizando *producers* e *consumers* paralelos, e integração com o modelo **GPT-5-mini**.  
-O pipeline é monitorado em tempo real por uma interface gráfica reativa, que exibe progresso, e a resposta em conforme vai sendo processado.
-
+- Um sistema assíncrono e escalável para extração estruturada de dados a partir de PDFs, utilizando *producers* e *consumers* paralelos, e integração com o modelo **GPT-5-mini**.    
+- O pipeline é monitorado em tempo real por uma interface gráfica reativa, que exibe progresso, e a resposta em conforme vai sendo processado.  
+- A integração tem todas as bibliotecas sendo multi-plataforma mas apenas foi testada em Linux e Windows.  
+- OBS: para usuários MAC não deve apresentar problemas mas talvez algumas configurações internas possam atrapalhar o desempenho ou UI. 
 ---
 
 ## ⚙️ Visão Geral
@@ -107,14 +108,12 @@ CONS -->|⚙️ Reitera se pendente| C1
 1. Instalação das dependências
 
     `pip install -r requirements.txt`
-
-2. Substitua o dataset.json pelo seu conteudo #Importante manter o nome como dataset.json
   
 3. Execução normal (com UI)
 
     `python3 main.py`
 
-4. Selecione os pdf que queira ler, pode ser tanto selecionando os pdf quanto a pasta em que eles estão
+4. Selecione os pdf que queira ler pode ser tanto selecionando os pdf quanto a pasta em que eles estão e qual schema.json quer usar ( default: dataset.json ) 
  
 5. Resultado
 
@@ -164,6 +163,13 @@ Porém, como o código estava processando em poucos lotes de chamada o cache aca
 
 Por fim, criei uma **função de teste** para validar a **acurácia dos resultados**, garantindo que o texto final estivesse coerente e bem gerado.
 
-🧑‍🎓 Autor
+## 🧩 Desafios encontrados
+
+As requisições já estavam bem econômicas e rápidas, então o próximo passo foi buscar formas de aumentar a eficiência geral, mesmo com o tempo fixo de cada chamada à API.
+
+A solução foi implementar um modelo de produtor e consumidor assíncrono, permitindo processar múltiplos PDFs em paralelo e atualizar os resultados em tempo real.
+
+Além disso, busquei otimizar cada etapa — desde a leitura dos PDFs com o PyMuPDF (fitz) até o cache e escrita incremental dos resultados — sempre priorizando bibliotecas focadas em velocidade e baixo overhead.
+## 🧑‍🎓 Autor
 
 Desenvolvido por **Gabriel Saboya**
