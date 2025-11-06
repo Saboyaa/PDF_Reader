@@ -97,7 +97,7 @@ def main():
     with open("gabarito.json", "r", encoding="utf-8") as f:
         gabaritos = json.load(f)
 
-    with open("result.json", "r", encoding="utf-8") as f:
+    with open("../json/result.json", "r", encoding="utf-8") as f:
         resultados = json.load(f)
 
     acuracia_geral, total_acertos, total_campos, docs_resultado = calcular_acuracia(gabaritos, resultados)

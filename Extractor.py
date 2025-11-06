@@ -30,13 +30,17 @@ class DataExtractor:
 
     async def extract_data(self, schema, texto, pdf_filename):
         prompt = f"""
-Extraia e retorne os seguintes dados do texto fornecido no formato JSON.
+Extraia e retorne os dados do Texto que foi extraido de um PDF substituindo eles nos valores do schema conforme o JSON.
 Campos ausentes devem ser null.
-
 {json.dumps(schema, indent=2, ensure_ascii=False)}
+devolta exatamente nessa estrutura
 
 Texto:
 {texto}
+
+
+
+
 """
         start = time.time()
         response = await self.client.responses.create(
