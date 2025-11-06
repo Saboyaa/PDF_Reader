@@ -36,28 +36,37 @@ class PacmanProgress(QWidget):
     def paintEvent(self, event):
         if self.total == 0:
             return
+
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         w, h = self.width(), self.height()
         y_center = h / 2
-        spacing = 25
-        dot_radius = 6
 
-        # Bolinhas
-        for i in range(self.total):
-            x = 60 + i * spacing
-            color = QColor("#a3c4c2") if i >= self.done else QColor("#3a4a4a")
+        # Número fixo de bolinhas para representar o progresso visual
+        num_dots = 20
+        dot_radius = 6
+        left_margin = 60
+        right_margin = 60
+        spacing = (w - left_margin - right_margin - num_dots * dot_radius * 2) / (num_dots - 1)
+
+        # Progresso percentual
+        progress = self.done / self.total
+
+        # Bolinhas fixas
+        for i in range(num_dots):
+            x = left_margin + i * (2 * dot_radius + spacing)
+            color = QColor("#a3c4c2") if (i / (num_dots - 1)) <= progress else QColor("#3a4a4a")
             painter.setBrush(QBrush(color))
             painter.setPen(Qt.PenStyle.NoPen)
             painter.drawEllipse(int(x), int(y_center - dot_radius), int(dot_radius * 2), int(dot_radius * 2))
 
-        # Pac-Man dourado
-        pac_x = 75 + min(self.done, self.total - 1) * spacing - 18
-        pac_y = y_center - 15
+        # Pac-Man dourado se movendo do início ao fim
         pac_size = 30
+        pac_x = left_margin + (w - left_margin - right_margin - pac_size) * progress
+        pac_y = y_center - pac_size / 2
         mouth_angle = 50 * math.sin(math.radians(self.angle))
         painter.setBrush(QBrush(QColor("#f3daaa")))
-        painter.setPen(QPen(Qt.PenStyle.NoPen))
+        painter.setPen(Qt.PenStyle.NoPen)
         painter.drawPie(QRectF(pac_x, pac_y, pac_size, pac_size),
                         int(mouth_angle * 16),
                         int((360 - 2 * mouth_angle) * 16))
@@ -66,7 +75,7 @@ class PacmanProgress(QWidget):
 class FastProcessorUI(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("⚡ Processador de Arquivos")
+        self.setWindowTitle("Processador de Arquivos")
         self.resize(1000, 700)
 
         # 🌙 Tema pastel escuro
@@ -149,7 +158,7 @@ class FastProcessorUI(QWidget):
 
         title = QLabel("Extrator de PDF - Saboya")
         title.setObjectName("title")
-        subtitle = QLabel("Lendo e atualizando result.json em tempo real")
+        subtitle = QLabel("Atualizando result.json em tempo real")
         subtitle.setObjectName("subtitle")
         layout.addWidget(title, alignment=Qt.AlignmentFlag.AlignHCenter)
         layout.addWidget(subtitle, alignment=Qt.AlignmentFlag.AlignHCenter)
@@ -197,7 +206,7 @@ class FastProcessorUI(QWidget):
         folder = QFileDialog.getExistingDirectory(self, "Selecionar Pasta")
         if folder:
             self.files = [str(f) for f in Path(folder).iterdir() if f.is_file()]
-            self.status_label.setText(f"{len(self.files)} arquivo(s) encontrado(s) ✓")
+            self.status_label.setText(f"{len(self.files)} arquivo(s) selecionado(s) ✓")
 
     def clear_all(self):
         self.files = []
@@ -214,10 +223,18 @@ class FastProcessorUI(QWidget):
             QMessageBox.warning(self, "Aviso", "Selecione arquivos ou uma pasta antes!")
             return
 
+        try:
+            with open("buffed.json", "r", encoding="utf-8") as f:
+                dataset = json.load(f)
+                self.total_expected = len(dataset)
+        except Exception as e:
+            QMessageBox.critical(self, "Erro", f"Não foi possível ler dataset.json:\n{e}")
+            return
+        
         self.status_label.setText("Processando...")
         self.start_time = time.perf_counter()
-        self.pacman_progress.setProgress(0, len(self.files))
-
+        self.pacman_progress.setProgress(0, self.total_expected)
+        
         with open(self.json_path, "w", encoding="utf-8") as f:
             json.dump([], f)
 
@@ -226,11 +243,11 @@ class FastProcessorUI(QWidget):
 
         threading.Thread(target=self.run_external_process, daemon=True).start()
         self.monitoring = True
-        self.timer.start(200)
+        self.timer.start(500)
 
     def run_external_process(self):
         try:
-            subprocess.run([sys.executable, "process.py"], check=True)
+            self.process = subprocess.Popen([sys.executable, "Extractor.py", *self.files])
         except subprocess.CalledProcessError as e:
             print("Erro ao executar script:", e)
         finally:
@@ -244,11 +261,14 @@ class FastProcessorUI(QWidget):
             self.json_view.verticalScrollBar().setValue(
                 self.json_view.verticalScrollBar().maximum()
             )
-            self.pacman_progress.setProgress(len(data), len(self.files))
-            if len(data) >= len(self.files):
+            self.pacman_progress.setProgress(len(data), self.total_expected)
+            if len(data) >= self.total_expected:
                 elapsed = time.perf_counter() - self.start_time
-                self.status_label.setText(f"Concluído em {elapsed:.2f}s")
+                self.status_label.setText(f"Os {self.total_expected} schemas mapeados foram concluídos em {elapsed:.2f}s")
                 self.timer.stop()
+                if self.process.poll() is None:  # ainda está rodando
+                    self.process.kill()   
+        
         except Exception:
             pass
 

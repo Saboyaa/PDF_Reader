@@ -4,6 +4,7 @@ import json
 import re
 import fitz
 import asyncio
+import sys
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 
@@ -11,25 +12,13 @@ from openai import AsyncOpenAI
 # -----------------------------
 # Extrator de texto dos PDFs
 # -----------------------------
-class PDFExtractor:
-    def __init__(self, folder_path):
-        self.folder_path = folder_path
     
-    def extract_all_texts(self):
-        all_texts = {}
-        for filename in os.listdir(self.folder_path):
-            if filename.endswith('.pdf'):
-                pdf_path = os.path.join(self.folder_path, filename)
-                text = self._extract_text(pdf_path)
-                all_texts[filename] = text
-        return all_texts
-    
-    def _extract_text(self, pdf_path):
-        text = ''
-        with fitz.open(pdf_path) as pdf:
-            for page in pdf:
-                text += page.get_text()
-        return text
+def _extract_text(pdf_path):
+    text = ''
+    with fitz.open(pdf_path) as pdf:
+        for page in pdf:
+            text += page.get_text()
+    return text
 
 
 # -----------------------------
@@ -43,7 +32,6 @@ class DataExtractor:
         prompt = f"""
 Extraia e retorne os seguintes dados do texto fornecido no formato JSON.
 Campos ausentes devem ser null.
-Quanto mais para cima da página estiver a informação, maior a prioridade.
 
 {json.dumps(schema, indent=2, ensure_ascii=False)}
 
@@ -77,10 +65,30 @@ Texto:
 
 
 # -----------------------------
+# Atualização do result.json em tempo real
+# -----------------------------
+async def update_result_json(original_dataset, results, lock, output_path="result.json"):
+    """Atualiza result.json mantendo a ordem original do dataset.json."""
+    async with lock:
+        result_map = {r.get("pdf_path"): r for r in results}
+        ordered_results = []
+
+        for item in original_dataset:
+            pdf_path = item["pdf_path"]
+            if pdf_path in result_map:
+                merged = {**item, **result_map[pdf_path]}
+                ordered_results.append(merged)
+
+        tmp_path = f"{output_path}.tmp"
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            json.dump(ordered_results, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, output_path)
+
+
+# -----------------------------
 # Funções de produtores/consumidores
 # -----------------------------
-async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor, results, lock):
-    # Fase 1: Produção
+async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor, results, lock, original_dataset):
     produced_count = 0
 
     for item in dataset_slice:
@@ -102,14 +110,12 @@ async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor,
 
     print(f"[P{id}] ✅ Finalizou produção ({produced_count} itens). Agora consumindo...")
 
-    # Fase 2: Vira consumidor
     consumed_count = 0
     while True:
         try:
             task = await asyncio.wait_for(queue.get(), timeout=5.0)
         except asyncio.TimeoutError:
-            print(f"[P{id}] 🚪 Nenhum item novo há 5s, encerrando consumidor. "
-                  f"Total consumido: {consumed_count}")
+            print(f"[P{id}] 🚪 Nenhum item novo há 5s, encerrando consumidor. Total consumido: {consumed_count}")
             break
 
         if task is None:
@@ -124,8 +130,15 @@ async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor,
         print(f"[P{id}] (como consumidor) ✓ Processado: {pdf_name} ({label})")
         queue.task_done()
 
-async def consumer(id, queue, extractor, results, lock):
+        # 🔄 Atualiza o result.json após cada item
+        await update_result_json(original_dataset, results, lock)
+
+
+async def consumer(id, queue, extractor, results, lock, original_dataset):
     while True:
+        if len(results)>=len(original_dataset):
+            print(f"[C{id}] 🚪 Encerrando consumidor.")
+            break
         task = await queue.get()
         if task is None:
             print(f"[C{id}] 🚪 Encerrando consumidor.")
@@ -138,6 +151,9 @@ async def consumer(id, queue, extractor, results, lock):
         print(f"[C{id}] ✓ Processado: {pdf_name} ({label})")
         queue.task_done()
 
+        # 🔄 Atualiza o result.json após cada item
+        await update_result_json(original_dataset, results, lock)
+
 
 # -----------------------------
 # Main
@@ -145,14 +161,36 @@ async def consumer(id, queue, extractor, results, lock):
 async def main():
     load_dotenv()
     inicio = time.time()
+    all_texts = {}
+    pdf_args = sys.argv[1:]
+    print(f"→ Arquivos recebidos: {pdf_args}")
 
     with open("buffed.json", "r", encoding="utf-8") as f:
         dataset = json.load(f)
-    print(len(dataset))
-    
-    pdf_extractor = PDFExtractor("buffed_files")
-    all_texts = pdf_extractor.extract_all_texts()
+    original_dataset = dataset.copy()
+    print(f"Total no dataset: {len(dataset)}")
+
+    valid_pdfs = [p for p in pdf_args if p.lower().endswith(".pdf")]
+    print(f"→ PDFs válidos detectados: {valid_pdfs}")
+
+    for pdf_path in valid_pdfs:
+        if os.path.exists(pdf_path):
+            pdf_name = os.path.basename(pdf_path)
+            try:
+                all_texts[pdf_name] = _extract_text(pdf_path)
+            except Exception as e:
+                print(f"[!] Erro ao ler {pdf_path}: {e}")
+        else:
+            print(f"[!] Arquivo não encontrado: {pdf_path}")
+
+    if not all_texts:
+        print("[!] Nenhum PDF válido encontrado para processar.")
+        return
+
     print(f"Extração de PDFs: {time.time() - inicio:.2f}s")
+
+    dataset = [d for d in dataset if d["pdf_path"] in all_texts]
+    print(f"Dataset filtrado: {len(dataset)} entradas correspondentes.")
 
     extractor = DataExtractor()
     results = []
@@ -162,36 +200,29 @@ async def main():
     tempo_llm = time.time()
 
     num_producers = 1
-    num_consumers = 4
+    num_consumers = 200
     chunk_size = max(1, len(dataset) // num_producers)
     slices = [dataset[i:i + chunk_size] for i in range(0, len(dataset), chunk_size)]
 
-    # 5 produtores que viram consumidores
     producer_tasks = [
-        asyncio.create_task(producer_then_consumer(i + 1, queue, slices[i], all_texts, extractor, results, lock))
+        asyncio.create_task(producer_then_consumer(i + 1, queue, slices[i], all_texts, extractor, results, lock, original_dataset))
         for i in range(len(slices))
     ]
 
-    # 2 consumidores fixos
     consumer_tasks = [
-        asyncio.create_task(consumer(i + 1, queue, extractor, results, lock))
+        asyncio.create_task(consumer(i + 1, queue, extractor, results, lock, original_dataset))
         for i in range(num_consumers)
     ]
 
     await asyncio.gather(*producer_tasks)
 
-    # Após produtores (que também consumiram) terminarem, encerrar os consumidores fixos
     for _ in range(num_consumers):
         await queue.put(None)
 
     await asyncio.gather(*consumer_tasks)
 
     print(f"\nLLM Total: {time.time() - tempo_llm:.2f}s")
-
-    print("\n=== RESULTADOS ===")
-    print(json.dumps(results, indent=2, ensure_ascii=False))
     print(f"Total resultados obtidos: {len(results)}")
-
     print(f"\nTempo total: {time.time() - inicio:.2f}s")
 
 
