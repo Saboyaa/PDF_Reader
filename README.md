@@ -75,7 +75,7 @@ class P,P1,P2,P3,P4 producer;
 class C,C1,C2,C3 consumer;
 class M1,M2 model;
 class UI,A1,A2,A3,A4 ui;
-
+```
 🔁 Fluxo de Execução
 
     O usuário inicia o processo na interface e seleciona os PDFs.
