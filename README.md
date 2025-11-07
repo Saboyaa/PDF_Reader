@@ -161,13 +161,13 @@ Durante o desenvolvimento deste projeto, meu foco foi entender o problema e divi
 Na **reunião de terça-feira**, descobri que o processo poderia ser **assíncrono** des de que a primeira resposta chegasse em menos de 10s, o que me levou a pensar em um **modelo de produtor e consumidor** para maximizar a eficiência.  
 Fui testando para o meu sistema e percebi que conseguia uma quantidade grande de consumidores sem risco de falhar na minha infraestrura pessoal que é bem básica então ficou tão rápido que precisei **ampliar a base de dados de PDFs** — fazendo ele processar **6 arquivos, 200 vezes cada** em uma media de 8s os 1200 arquivos, mantendo o mesmo consumo de tokens por arquivo.  
 
-Porém, como o código estava processando em poucos lotes de chamada o cache acabou apenas **aumentando o tamanho do prompt**, decidi **removê-lo** para simplicar e diminuir a quantidade de tokens de entrada e focar na velocidade pura do processamento.  
+Porém, como o código estava processando em poucos lotes de chamada o cache acabou apenas **aumentando o tamanho do prompt**, decidi **removê-lo** e deixar apenas o cache básico da openAI que se baseia na prefixos semelhantes para simplicar e diminuir a quantidade de tokens de entrada e focar na velocidade pura do processamento.  
 
 Por fim, criei uma **função de teste** para validar a **acurácia dos resultados**, garantindo que o texto final estivesse coerente e bem gerado.
 
 ## 🧩 Desafios encontrados
 
-As requisições já estavam bem econômicas e rápidas, então o próximo passo foi buscar formas de aumentar a eficiência geral, mesmo com o tempo fixo de cada chamada à API.
+As requisições já estavam bem econômicas e rápidas , então o próximo passo foi buscar formas de aumentar a eficiência geral, mesmo com o tempo fixo de cada chamada à API.
 
 A solução foi implementar um modelo de produtor e consumidor assíncrono, permitindo processar múltiplos PDFs em paralelo e atualizar os resultados em tempo real.
 
