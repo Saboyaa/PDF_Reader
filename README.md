@@ -4,7 +4,9 @@
 - O pipeline é monitorado em tempo real por uma interface gráfica reativa, que exibe progresso, e a resposta em conforme vai sendo processado.  
 - A integração tem todas as bibliotecas sendo multi-plataforma mas apenas foi testada em Linux e Windows.  
 - OBS: para usuários MAC não deve apresentar problemas mas talvez algumas configurações internas possam atrapalhar o desempenho ou UI. 
----
+---  
+<img width="999" height="727" alt="image" src="https://github.com/user-attachments/assets/d6094728-529b-44ce-814d-e698c04f0940" />
+
 
 ## ⚙️ Visão Geral
 
