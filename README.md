@@ -159,7 +159,7 @@ Durante o desenvolvimento deste projeto, meu foco foi entender o problema e divi
 5. **Formatação da Resposta** – Estruturei a saída para análise posterior e testes de validação.  
 
 Na **reunião de terça-feira**, descobri que o processo poderia ser **assíncrono** des de que a primeira resposta chegasse em menos de 10s, o que me levou a pensar em um **modelo de produtor e consumidor** para maximizar a eficiência.  
-Fui testando para o meu sistema e percebi que conseguia uma quantidade grande de consumidores sem risco de falhar na minha infraestrura pessoal que é bem básica então ficou tão rápido que precisei **ampliar a base de dados de PDFs** — fazendo ele processar **6 arquivos, 200 vezes cada**, mantendo o mesmo consumo de tokens por chamada.  
+Fui testando para o meu sistema e percebi que conseguia uma quantidade grande de consumidores sem risco de falhar na minha infraestrura pessoal que é bem básica então ficou tão rápido que precisei **ampliar a base de dados de PDFs** — fazendo ele processar **6 arquivos, 200 vezes cada** em uma media de 8s os 1200 arquivos, mantendo o mesmo consumo de tokens por arquivo.  
 
 Porém, como o código estava processando em poucos lotes de chamada o cache acabou apenas **aumentando o tamanho do prompt**, decidi **removê-lo** para simplicar e diminuir a quantidade de tokens de entrada e focar na velocidade pura do processamento.  
 
