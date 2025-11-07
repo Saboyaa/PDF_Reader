@@ -50,7 +50,7 @@ Texto:
             text={"format": {"type": "json_object"}},
         )
 
-        print(f"→ {pdf_filename}: {response.usage.total_tokens} tokens | {time.time() - start:.2f}s")
+        # print(f"→ {pdf_filename}: {response.usage.total_tokens} tokens | {time.time() - start:.2f}s")
 
         text_content = response.output_text
         result = self._parse_json(text_content)
@@ -110,20 +110,20 @@ async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor,
 
         await queue.put((schema, texto, pdf_name, label))
         produced_count += 1
-        print(f"[P{id}] + Adicionado à fila: {pdf_name} ({label})")
+        # print(f"[P{id}] + Adicionado à fila: {pdf_name} ({label})")
 
-    print(f"[P{id}] ✅ Finalizou produção ({produced_count} itens). Agora consumindo...")
+    # print(f"[P{id}] ✅ Finalizou produção ({produced_count} itens). Agora consumindo...")
 
     consumed_count = 0
     while True:
         try:
             task = await asyncio.wait_for(queue.get(), timeout=5.0)
         except asyncio.TimeoutError:
-            print(f"[P{id}] 🚪 Nenhum item novo há 5s, encerrando consumidor. Total consumido: {consumed_count}")
+            # print(f"[P{id}] 🚪 Nenhum item novo há 5s, encerrando consumidor. Total consumido: {consumed_count}")
             break
 
         if task is None:
-            print(f"[P{id}] 🚪 Recebeu sinal de parada.")
+            # print(f"[P{id}] 🚪 Recebeu sinal de parada.")
             break
 
         schema, texto, pdf_name, label = task
@@ -131,7 +131,7 @@ async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor,
         async with lock:
             results.append(parsed)
         consumed_count += 1
-        print(f"[P{id}] (como consumidor) ✓ Processado: {pdf_name} ({label})")
+        # print(f"[P{id}] (como consumidor) ✓ Processado: {pdf_name} ({label})")
         queue.task_done()
 
         # 🔄 Atualiza o result.json após cada item
@@ -141,18 +141,18 @@ async def producer_then_consumer(id, queue, dataset_slice, all_texts, extractor,
 async def consumer(id, queue, extractor, results, lock, original_dataset):
     while True:
         if len(results)>=len(original_dataset):
-            print(f"[C{id}] 🚪 Encerrando consumidor.")
+            # print(f"[C{id}] 🚪 Encerrando consumidor.")
             break
         task = await queue.get()
         if task is None:
-            print(f"[C{id}] 🚪 Encerrando consumidor.")
+            # print(f"[C{id}] 🚪 Encerrando consumidor.")
             break
 
         schema, texto, pdf_name, label = task
         parsed = await extractor.extract_data(schema, texto, pdf_name)
         async with lock:
             results.append(parsed)
-        print(f"[C{id}] ✓ Processado: {pdf_name} ({label})")
+        # print(f"[C{id}] ✓ Processado: {pdf_name} ({label})")
         queue.task_done()
 
         # 🔄 Atualiza o result.json após cada item
@@ -201,10 +201,10 @@ async def main():
         print("[!] Nenhum PDF válido encontrado para processar.")
         return
 
-    print(f"Extração de PDFs: {time.time() - inicio:.2f}s")
+    # print(f"Extração de PDFs: {time.time() - inicio:.2f}s")
 
     dataset = [d for d in dataset if d["pdf_path"] in all_texts]
-    print(f"Dataset filtrado: {len(dataset)} entradas correspondentes.")
+    # print(f"Dataset filtrado: {len(dataset)} entradas correspondentes.")
 
     extractor = DataExtractor()
     results = []
@@ -235,9 +235,9 @@ async def main():
 
     await asyncio.gather(*consumer_tasks)
 
-    print(f"\nLLM Total: {time.time() - tempo_llm:.2f}s")
-    print(f"Total resultados obtidos: {len(results)}")
-    print(f"\nTempo total: {time.time() - inicio:.2f}s")
+    #print(f"\nLLM Total: {time.time() - tempo_llm:.2f}s")
+    #print(f"Total resultados obtidos: {len(results)}")
+    #print(f"\nTempo total: {time.time() - inicio:.2f}s")
 
 
 if __name__ == "__main__":
