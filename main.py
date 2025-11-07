@@ -145,7 +145,7 @@ class FastProcessorUI(QWidget):
         """)
 
         self.json_path = "json/result.json"
-        self.buffered_path = "json/buffed.json"  # Caminho padrão do buffed.json
+        self.buffered_path = "json/dataset.json"  # Caminho padrão do buffed.json
         self.files = []
         self.monitoring = False
         self.start_time = 0

@@ -174,7 +174,7 @@ async def main():
         buffed_path = pdf_args[-1]
         pdf_args = pdf_args[:-1]  # remove o último argumento da lista de PDFs
     else:
-        buffed_path = "json/buffed.json"
+        buffed_path = "json/dataset.json"
 
     print(f"→ buffed.json usado: {buffed_path}")
 
